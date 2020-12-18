@@ -20,7 +20,7 @@ const Navbar = () => {
               </ul>
             </div>
           </nav>
-          <div className="relative bg-red-600 md:pt-32 pb-32 pt-12">
+          <div className="relative bg-yellow-600 md:pt-32 pb-32 pt-12">
           </div>
           {/* End Navbar */}
         </>
