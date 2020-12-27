@@ -8,14 +8,14 @@ class AuthService {
         let formData = {email: data.email, password: data.password}        
         return axios.post(API_URL + 'login',formData )
         .then(res => {
-            console.log(res.data)
             if (res.data.token) {
               localStorage.setItem("user", JSON.stringify(res.data));
             }
             return res.data;
         })
         .catch(err => {
-            console.log(err)
+            // console.log(err)
+            return err
         })
     }
     

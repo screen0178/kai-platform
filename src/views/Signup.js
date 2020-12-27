@@ -4,7 +4,7 @@ import { useForm } from "react-hook-form"
 
 import AuthService  from '../services/auth.service'
 
-const Login = () => {
+const Signup = () => {
     const [loading, setLoading] = useState()
     const [errorMsg, setErrorMsg] = useState(false)
 
@@ -85,4 +85,4 @@ const Login = () => {
     )
 }
 
-export default Login
+export default Signup
